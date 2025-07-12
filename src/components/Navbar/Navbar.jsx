@@ -101,7 +101,7 @@ const Navbar = () => {
             href="https://www.instagram.com/itz_subhadip106"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-300 hover:text-white"
+            className="text-gray-300 hover:text-[#8245ec]"
           >
             <FaInstagram size={24} />
           </a>
@@ -109,7 +109,7 @@ const Navbar = () => {
             href="https://www.facebook.com/share/19QFBh3Liw/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-300 hover:text-white"
+            className="text-gray-300 hover:text-[#8245ec]"
           >
             <FaFacebook size={24} />
           </a>
@@ -152,7 +152,7 @@ const Navbar = () => {
                 href="https://github.com/Subhadip956425"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-white"
+                className="text-gray-300 hover:text-[#8245ec]"
               >
                 <FaGithub size={24} />
               </a>
@@ -160,7 +160,7 @@ const Navbar = () => {
                 href="https://www.linkedin.com/in/subhadip-guchhait-675395252"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-white"
+                className="text-gray-300 hover:text-[#8245ec]"
               >
                 <FaLinkedin size={24} />
               </a>
@@ -168,7 +168,7 @@ const Navbar = () => {
                 href="https://www.instagram.com/itz_subhadip106"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-white"
+                className="text-gray-300 hover:text-[#8245ec]"
               >
                 <FaInstagram size={24} />
               </a>
@@ -176,7 +176,7 @@ const Navbar = () => {
                 href="https://www.facebook.com/share/19QFBh3Liw/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-white"
+                className="text-gray-300 hover:text-[#8245ec]"
               >
                 <FaFacebook size={24} />
               </a>
