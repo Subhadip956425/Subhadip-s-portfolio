@@ -39,7 +39,7 @@ import RestApiLogo from "./assets/tech_logo/RestApi.png";
 // import csharpLogo from "./assets/tech_logo/csharp.png";
 
 // Experience Section Logo's
-import Infosys from "./assets/company_logo/Infosys.png";
+import Infosys from "./assets/company_logo/infosys.png";
 import IBM from "./assets/company_logo/IBM.png";
 import newtonschoolLogo from "./assets/company_logo/newtonschool_logo.png";
 
