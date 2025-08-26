@@ -1,4 +1,4 @@
-import React, { useLayoutEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
@@ -13,14 +13,14 @@ import Loader from "./components/Loader";
 const App = () => {
   const [loading, setLoading] = useState(true);
 
-  useLayoutEffect(() => {
-    const handleLoad = () => {
+  // Use useEffect instead of window.load
+  useEffect(() => {
+    // simulate loading for 1.5 seconds
+    const timer = setTimeout(() => {
       setLoading(false);
-    };
+    }, 1500);
 
-    window.addEventListener("load", handleLoad);
-
-    return () => window.removeEventListener("load", handleLoad);
+    return () => clearTimeout(timer);
   }, []);
 
   return (
