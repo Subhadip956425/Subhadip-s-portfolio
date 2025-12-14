@@ -49,6 +49,7 @@ import Mohar from "./assets/education_logo/Mohar.png";
 import WBBSE from "./assets/education_logo/WBBSE.png";
 
 // Project Section Logo's
+import neuroFleetX from "./assets/work_logo/neurofleetx.png";
 import Taskorbit from "./assets/work_logo/Taskorbit.png";
 import Authenavenue from "./assets/work_logo/Authenavenue.png";
 import Authenchain from "./assets/work_logo/Authenchain.png";
@@ -215,6 +216,24 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "NeuroFleetX",
+    description:
+      "An AI-driven fleet management and analytics platform that provides intelligent monitoring, predictive maintenance insights, and data-driven decision support using machine learning and real-time analytics.",
+    image: neuroFleetX,
+    tags: [
+      "Java",
+      "Spring Boot",
+      "React.js",
+      "Machine Learning",
+      "REST APIs",
+      "Docker",
+      "AI Analytics",
+    ],
+    github: "https://github.com/Subhadip956425/NeuroFleetX",
+    webapp: "https://neuro-fleet-x.vercel.app/",
+  },
+  {
+    id: 1,
     title: "Project Management System-TaskOrbit",
     description:
       "TaskOrbit is a full-stack project management application built with Java, Spring Boot, React.js, and Redux Toolkit. It enables users to manage tasks, projects, and teams with features like task assignment, real-time status updates, and secure JWT-based authentication. Designed with a user-friendly UI using Tailwind CSS and Shadcn UI, it supports collaborative workflows and efficient task tracking.",
@@ -234,7 +253,7 @@ export const projects = [
     webapp: "https://task-orbit-eosin.vercel.app/",
   },
   {
-    id: 1,
+    id: 2,
     title: " Crypto Trading Platform-AuthenAvenue",
     description:
       "Developed a full-stack crypto trading platform using Java, Spring Boot, and Angular, supporting real-time trading functionalities. Integrated RESTful APIs and WebSockets for live market data and seamless user interaction. Implemented robust security mechanisms including two-factor authentication (2FA) and data encryption to ensure safe transactions. Users can access customizable dashboards, perform trades, and view live analytics. The platform also focuses on regulatory compliance to provide a legally sound trading environment",
@@ -253,7 +272,7 @@ export const projects = [
     webapp: "https://authen-avenue.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Document Verification System-AuthenChain",
     description:
       "AuthenChain is a blockchain-based document verification system that ensures secure, tamper-proof validation using smart contracts, IPFS, and MetaMask. It enables decentralized storage, hash-based authentication, and real-time verification while integrating AI (OpenCV, NLP) for document forgery detection. Built with Solidity, Web3, and React.js, the platform supports global accessibility, encrypted data security, and automated workflows for sectors like education, healthcare, and government.",
@@ -273,7 +292,7 @@ export const projects = [
     webapp: "https://authenchain.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Bank Management System",
     description:
       "Bank Management System is a Java-based desktop application designed to manage basic banking operations such as account creation, deposits, withdrawals, balance inquiries, and transaction history. Built using Java and Swing for the GUI, the system offers a user-friendly interface and ensures secure handling of customer data. It serves as a foundational project to demonstrate core Java concepts like object-oriented programming, file handling, and exception management.",
@@ -293,7 +312,7 @@ export const projects = [
     webapp: "https://github.com/Subhadip956425/Bank_Management_System",
   },
   {
-    id: 4,
+    id: 5,
     title: "AI-Powered Fitness Application – SmartFit360",
     description:
       "SmartFit360 is an AI-powered fitness tracking application designed using Spring Boot microservices architecture. It leverages AI to generate personalized workout recommendations, tracks user activity in real-time, and ensures a secure and scalable experience using OAuth 2.0 and Keycloak. The platform integrates microservices for user management, fitness activity tracking, AI recommendations, and asynchronous communication via RabbitMQ, offering a robust, intelligent, and secure fitness solution.",
@@ -317,7 +336,7 @@ export const projects = [
     webapp: "https://github.com/Subhadip956425/Fitness_Application-SmartFit360",
   },
   {
-    id: 5,
+    id: 6,
     title: "Restaurant Website-India Bite",
     description:
       "India_Bite is a responsive and visually engaging food delivery website built using HTML, CSS, and JavaScript. The project showcases a modern UI design with interactive elements, simulating a real-world food ordering experience. It includes sections for featured dishes, restaurant listings, customer testimonials, and a contact form, making it ideal for presenting frontend development and web design skills.",

@@ -100,7 +100,8 @@ const Work = () => {
           }
         }
 
-        @keyframes modalSlideIn {
+         {
+          /* @keyframes modalSlideIn {
           from {
             opacity: 0;
             transform: scale(0.8) translateY(50px);
@@ -109,6 +110,7 @@ const Work = () => {
             opacity: 1;
             transform: scale(1) translateY(0);
           }
+        } */
         }
 
         @keyframes overlayFadeIn {
@@ -351,9 +353,27 @@ const Work = () => {
           );
           border: 2px solid rgba(0, 245, 255, 0.3);
           backdrop-filter: blur(20px);
-          animation: modalSlideIn 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+          animation: modalExpand 0.45s ease-out;
           position: relative;
-          overflow: hidden;
+          overflow-y: auto; /* ✅ IMPORTANT */
+          scrollbar-width: thin;
+        }
+
+        @keyframes modalExpand {
+          from {
+            opacity: 0;
+            max-height: 0;
+            transform: translateY(20px);
+          }
+          to {
+            opacity: 1;
+            max-height: 90vh;
+            transform: translateY(0);
+          }
+        }
+
+        .modal-content.closing {
+          animation: modalVerticalScale 0.4s ease-in reverse;
         }
 
         .modal-content::before {
