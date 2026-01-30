@@ -643,7 +643,7 @@ const Footer = () => {
             style={{ "--delay": "0.6s" }}
           >
             <a
-              href="https://github.com/SubhadipGuchhhait"
+              href="https://github.com/Subhadip956425"
               target="_blank"
               rel="noopener noreferrer"
               className="social-icon github text-2xl"
