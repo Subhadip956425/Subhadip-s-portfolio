@@ -928,7 +928,7 @@ const Navbar = () => {
           {/* FIXED: Desktop Social Icons - Only Show on Large Screens (1024px+) */}
           <div className={`social-icons ${isLoaded ? "loaded" : ""}`}>
             <a
-              href="https://github.com/SubhadipGuchhhait"
+              href="https://github.com/Subhadip956425"
               target="_blank"
               rel="noopener noreferrer"
               className="social-icon"
